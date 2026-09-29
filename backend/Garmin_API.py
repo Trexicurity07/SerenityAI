@@ -5,11 +5,11 @@ from math import floor
 
 
 # Logs Into and Initializes Googles Gemini AI
-client = genai.Client(api_key= )#Removed API key for security purposes
+client = genai.Client(api_key= ) #Removed API key for security purposes
 
 # Initializing Garmdown and Garmin Connect Database
-username = 'erinkeenan6@yahoo.com'
-password = 'Elephant8910!?'
+username = 'falseuser@yahoo.com'
+password = 'falseEmail'
 garmin = Garmin(username, password)
 garmin.login()
 
